@@ -1,0 +1,14 @@
+@import "config/colors";
+@import "config/fonts";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	min-height: 100vh;
+	font-family: map-get($fonts, primary-font);
+	font-size: 12px;
+	background: map-get($clrs, body-bg);
+}
